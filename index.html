@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--Documento para repaso de html5 en general-->
+        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="ensayo" content="ensayo de memoria html5 general ">
+    <meta name="keywords" content="repaso, repasogeneral, html5, memoria, lisandrotesta, clave random">
+    <title>Repaso general HTML5</title>
+    <style>
+        body{
+          background-color: black;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> Repaso general html5</h1>
+    <p>Esta pagina web no va a tener un contenido muy especial solamente la voy a 
+        utilizar para poder repasar los conocimiento generales que tenga presente de memoria en html5 en general sin utilizar css ni js por eso va haber ocaciones donde utilice etiquetas br de mas o cosas por el estilo
+    </p>
+   <h2>Niveles de elementos</h2>
+    <p> Existen dos niveles de elementos, los elementos en linea o los elementos en bloque o inline and block level elements.<br> </p>
+    <p>-Los elementos en linea no comienza una nueva linea y solo ocupa el ancho necesario para dicho elemento. Por ejemplo las etiquetas: </p>
+    <ul>
+        <li>span</li>
+        <li>img</li>
+        <li>a</li>
+    </ul>
+   
+        <p>-Los elementos en bloque comienzan una nueva linea y ocupan todo el nacho disponible, por ejemplo las etiquetas:</p>
+        <ul>
+            <li>div</li>
+            <li>h1-h6</li>
+            <li>p</li>
+            <li>form</li>
+        </ul>
+<!-- Tratamiento de textos  -->
+<h2>tratamiento de textos</h2>
+<p> <strong>Resaltado de texto</strong></p>
+<p> <em>texto en italic</em></p>
+
+<!-- para redirigir a un link externo o interno atravez de textos se utiliza la etiqueta <a>-->
+    <!-- El atributo target="_blank" provoca que se abra la direccion del enlace en una nueva pestaña -->
+    <p><a href="" target="_blank">Ejemplo de enlace</a></p>
+
+
+    <!-- tablas -->
+           <!-- Se divide en thead y tbody dentro de thead van los encabezados cada fila de la tabla se define con tr , cada encabezado con th y cada dato con td -->
+          <h4>Tabla sencilla</h4>    
+       <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+
+        </thead>
+       <tbody>
+           <tr>
+               <td>Lisandro</td>         
+               <td>Testa</td>       
+               <td>22</td>
+           </tr>
+           <tr>
+            <td>Fulano</td>         
+            <td>Letal</td>       
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>jose</td>         
+            <td>peralta</td>       
+            <td>76</td>
+        </tr>       
+       </tbody>
+    </table>
+    <br>
+
+
+<!-- formularios -->
+<h4>Formularios</h4>
+<form action="process.js" method="POST">
+    <div>
+        <label for="firstName">Nombre</label>
+        <input type="text" name="firstName" placeholder="Ingrese su nombre">
+
+    </div> <br>
+
+   <div>
+        <label for="name">Apellido</label>
+        <input type="text" name="lastName" placeholder="Ingrese su apellido">
+   </div><br>
+
+   <div>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Ingrese su apellido">
+   </div><br>
+   
+   <div>
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" cols="20" rows="4" placeholder="Puede dejar su mensaje aqui"></textarea>
+   </div><br>
+
+   <div>
+  <label for="genero">Indique su genero</label>
+  <select name="genero" id="">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+    <option value="otro">Otro</option>
+  </select>
+   </div> <br>
+
+   <div>
+     <label for="edad">Inidique su edad</label>
+     <input type="number" name="edad" value="18">
+   </div><br>
+
+   <div>
+       <label for="nacimiento">Fecha de nacimiento</label>
+       <input type="date" name="nacimiento">
+   </div><br>
+
+   <input type="submit" name="enviar" value="Enviar">
+
+    
+</form>
+<!-- botones -->
+<h4>Botones</h4>
+<!-- La verdad es que no hay mucho para hacer sin js en el tema de los botones ya que necesitamos asignarle alguna funcion por lo general en el atributo onClick -->
+<button>
+clickeame 
+</button>
+
+<!-- imagenes -->
+<h4>Imagenes</h2>
+<a href="https://pbs.twimg.com/media/EQ5qdaxXUAEosoF.jpg">
+    <img src="https://pbs.twimg.com/media/EQ5qdaxXUAEosoF.jpg" alt="Imagen de prueba"  width="520px">
+</a>
+
+<!-- citas -->
+<!-- Existes diferentes tipos de cita que recuerde de memoria son ... -->
+<h4>Citas</h4>
+<blockquote cite="https://www.lanacion.com.ar/economia/negocios/marcos-galperin-sus-claves-empresa-valga-us60000-nid2439696/">
+    "Cuando todo el mundo piensa una cosa y vos estás absolutamente convencido de otra, lo que aprendí es andar detrás de tu instinto. Sobre todo cuando sabes que estudiaste y no es una apuesta", dijo, y aseguró haber estado siempre seguro de su idea. Con el diario del lunes, el empresario afirmó que fue mucho más complejo de lo que imaginaba. "Fue bueno no saberlo, porque quizás no nos hubiesemos tirado a la pileta como lo hicimos", admitió.
+</blockquote>
+
+<p>
+    <abbr title="Wolrd wide Web">WWW</abbr> o red informática mundial​ es un sistema de distribución de documentos de hipertexto o hipermedia
+</p>
+
+<p>
+    <cite>"Se aprende a sacar lecciones de las derrotas y se aprende a armar equipos"</cite>, aseguró y agregó que es fundamental generar un espacio para cada personalidad.
+
+</p>
+
+<!-- como los tags se pueden utilizar en toda la estructura de la web continuo la practica en otra pagina nueva -->
+<h4>Tagas</h4>
+<p>voy a continuar repasando los tags generales en una nueva pagina <a href="blog.html">Aqui</a></p>
+    <div style="margin-top:500px"></div>
+
+</body>    
+</html>
